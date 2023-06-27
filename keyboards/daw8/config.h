@@ -19,27 +19,12 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
-/* Serial settings */
-#define USE_SERIAL
-/* serial.c configuration for split keyboard */
-#define SOFT_SERIAL_PIN GP3
-//#define SPLIT_LAYER_STATE_ENABLE
-//#define SPLIT_USB_DETECT
-#define SERIAL_USE_MULTI_TRANSACTION
-/* communication between sides */
-#define SERIAL_PIO_USE_PIO1
-
-/* Double tap reset button to enter bootloader */
-#define TAPPING_TERM 200
-#define PERMISSIVE_HOLD
-
-#define MASTER_LEFT
-#define USB_POLLING_INTERVAL_MS    10
-
-#define TAPPING_TERM_PER_KEY
-
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
+
+#define ENCODERS_PAD_A { GP1, GP4 }
+#define ENCODERS_PAD_B { GP2, GP3 }
+
 /* pin assign */
 // right
 // D0 -> GP26

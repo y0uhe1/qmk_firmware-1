@@ -5,3 +5,12 @@
 // SPDX-License-Identifier: GPL-2.0+
 
 #pragma once
+
+#define EE_HANDS
+
+/* Top left key on left half */
+#define BOOTMAGIC_LITE_ROW    0
+#define BOOTMAGIC_LITE_COLUMN 0
+/* Top right key on right half */
+#define BOOTMAGIC_LITE_ROW_RIGHT    4
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 4

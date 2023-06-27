@@ -26,7 +26,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Pick good defaults for enabling homerow modifiers
 #define TAPPING_TERM 200
 #define PERMISSIVE_HOLD
-#define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_FORCE_HOLD
 
 // Underglow configuration
@@ -70,5 +69,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef MOUSEKEY_MOVE_DELTA
 #define MOUSEKEY_MOVE_DELTA        1
 
-#define MASTER_RIGHT
+#define MASTER_LEFT
 #define USB_POLLING_INTERVAL_MS    10
